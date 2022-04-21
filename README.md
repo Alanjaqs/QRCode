@@ -1,1 +1,1 @@
-# QRCode
+# Card código QR Mobile/Desktop
