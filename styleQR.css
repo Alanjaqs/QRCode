@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    block-size: 100%;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    block-size: 100%;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    inline-size: 19rem;
+    margin-left: 2rem;
+    margin-right: 2rem;    
+    border-radius: 1.4rem;
+}
+
+img {
+    block-size: 18rem;
+    inline-size: 19rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1.6rem;
+    user-select: none;
+}
+
+.parrUno {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    user-select: none;
+}
+.parrUno:nth-child(3) {
+    padding-bottom: 1rem;
+}
+
+.parrDos {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    user-select: none;
+}
+
+.parrDos:nth-child(6) {
+    padding-bottom: 2.5rem;
+}
